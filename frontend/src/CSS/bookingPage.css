@@ -1,0 +1,27 @@
+/* Add this CSS to your stylesheet */
+.full-page-grey {
+    background-color: #f8f9fa;
+    /* light grey similar to Bootstrap's 'bg-light' */
+    min-height: 100vh;
+    /* ensures full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* add padding for better spacing */
+}
+
+.centered-container {
+    background-color: white;
+    /* white background for the content */
+    padding: 2rem;
+    /* padding inside the content container */
+    border-radius: 8px;
+    /* optional: rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* optional: subtle shadow for depth */
+    max-width: 1500%;
+    /* limit the max width */
+    width: 100%;
+    /* make sure it doesn't exceed the max width */
+}
